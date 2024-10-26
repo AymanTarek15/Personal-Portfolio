@@ -317,3 +317,55 @@ section#contact a:hover {
   bottom: -1px;
   left: 0;
 } */
+
+/* Adding skills section */
+
+/* Skills Section Styling */
+.my-skills {
+  background-color: #ffffff; /* White background */
+  padding: 20px;
+  padding-top: 80px;
+  margin: 20px 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* .section-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+} */
+
+.skills-list {
+  list-style-type: none;
+  padding-left:   0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  
+  justify-content: center;
+  /* margin: auto; */
+  /* width: 20%; */
+}
+
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font-size: 18px;
+  color: #444;
+  margin: 10px 0;
+}
+
+.skill-icon {
+  margin-right: 10px;
+  color: #007acc; /* A subtle color for icons */
+  font-size: 20px;
+}

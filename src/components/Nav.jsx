@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 export default function Nav() {
   return (
     <nav>
-      {['About Me', 'Projects', 'Contact'].map((item, index) => (
+      {['About Me', 'Projects','Skills', 'Contact'].map((item, index) => (
         <motion.a
           key={index}
           href={`#${item.toLowerCase().replace(/\s+/g, '')}`}

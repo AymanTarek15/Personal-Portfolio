@@ -8,7 +8,7 @@ export default function Header() {
         transition={{ duration: 1.5 }}
       >
         <h1>Ayman Aboulsaad</h1>
-        <p>Web Developer & JavaScript Enthusiast</p>
+        <p>Web Developer & React Enthusiast</p>
         <motion.a
           href="#projects"
           className="cta"
